@@ -16,5 +16,12 @@ namespace Pharmacy_Management_System_V
         {
 
         }
+        private void label1_Click(object sender, EventArgs e)
+        {
+            // Add your event handling logic here
+            MessageBox.Show("Label clicked!");
+        }
+
+
     }
 }
