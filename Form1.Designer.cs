@@ -19,7 +19,12 @@
             }
             base.Dispose(disposing);
         }
-
+        // Add this method to the Form1 class
+        private void label1_Click(object sender, EventArgs e)
+        {
+            // Add your desired logic here
+            MessageBox.Show("Label clicked!");
+        }
         #region Windows Form Designer generated code
 
         /// <summary>
